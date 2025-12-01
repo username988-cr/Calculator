@@ -34,4 +34,3 @@ def test_get_number():
     assert get_number("5.2") == 5.2
     with pytest.raises(ValueError):
         get_number("abc")
-git remote add origin https://github.com/username988-cr/Calculator
